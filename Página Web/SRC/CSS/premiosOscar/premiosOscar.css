@@ -1,0 +1,32 @@
+.peliculas, .actores{
+    margin-top: 75px;
+    color: #D4AF37;
+}
+.peliculas a, .actores a{
+    text-decoration: none;
+    color: #ff0606;
+}
+.peliculas a:visited, .actores a:visited{
+    color: #fff;
+}
+
+div{
+    text-align: center;
+    
+    margin-top: 75px;
+    color:#fff;
+}
+
+div .peliculas .peliculas-imagenes, .peliculas-actores{
+    height: 500px;
+    transition: 0.2s ease;
+}
+div .peliculas .peliculas-imagenes:hover, .peliculas-actores:hover{
+    transform: scale(1.1) translateY(-40px);
+    
+}
+div .peliculas .peliculas-imagenes img, .peliculas-actores img{
+    border-radius: 25px;
+    height: 100%;
+}
+
